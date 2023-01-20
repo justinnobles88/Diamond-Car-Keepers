@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { server_calls } from '../api/server'
 
 export const useGetData = () => {
-		// Syntax: const [stateName, saveStateFunction] = importedHook<requiredDataType>(value passed in);
+		// const [stateName, saveStateFunction] = importedHook<requiredDataType>('value passed in');
     const [contactData, setData] = useState<[]>([]);
 
 		// This is a function that will get the data

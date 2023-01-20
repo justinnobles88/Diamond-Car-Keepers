@@ -50,20 +50,20 @@ export const BookForm = (props:BookFormProps) => {
     <div>
             <form onSubmit = {handleSubmit(onSubmit)}>
                 <div>
-                    <label htmlFor="title">Vehicle</label>
-                    <Input {...register('title')} name="make" placeholder='Make'/>
+                    <label htmlFor="make">Vehicle</label>
+                    <Input {...register('make')} name="make" placeholder='Make'/>
                 </div>
                 <div>
-                    <label htmlFor="author">Model</label>
-                    <Input {...register('author')} name="model" placeholder='Model'/>
+                    <label htmlFor="model">Model</label>
+                    <Input {...register('model')} name="model" placeholder='Model'/>
                 </div>
                 <div>
-                    <label htmlFor="cover">Color</label>
-                    <Input {...register('cover')} name="color" placeholder='Color'/>
+                    <label htmlFor="color">Color</label>
+                    <Input {...register('color')} name="color" placeholder='Color'/>
                 </div>
                 <div>
-                    <label htmlFor="pages">Year</label>
-                    <Input {...register('pages')} name="year" placeholder='Year'/>
+                    <label htmlFor="year">Year</label>
+                    <Input {...register('year')} name="year" placeholder='Year'/>
                 </div>
                 <Button type='submit'>Submit</Button>
             </form>
